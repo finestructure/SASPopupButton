@@ -16,6 +16,8 @@
 		5AC2FFE8152B0ACB00866FC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2FFE7152B0ACB00866FC5 /* ViewController.m */; };
 		5AC2FFEB152B0ACB00866FC5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2FFE9152B0ACB00866FC5 /* ViewController.xib */; };
 		5AC2FFF3152B0EBD00866FC5 /* SASPopupButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2FFF2152B0EBD00866FC5 /* SASPopupButton.m */; };
+		5AC2FFF6152B0FC400866FC5 /* dropdown_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2FFF4152B0FC400866FC5 /* dropdown_button_pressed.png */; };
+		5AC2FFF7152B0FC400866FC5 /* dropdown_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2FFF5152B0FC400866FC5 /* dropdown_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +34,10 @@
 		5AC2FFE6152B0ACB00866FC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5AC2FFE7152B0ACB00866FC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5AC2FFEA152B0ACB00866FC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		5AC2FFF1152B0EBD00866FC5 /* SASPopupButton.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SASPopupButton.h; sourceTree = "<group>"; };
+		5AC2FFF1152B0EBD00866FC5 /* SASPopupButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASPopupButton.h; sourceTree = "<group>"; };
 		5AC2FFF2152B0EBD00866FC5 /* SASPopupButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASPopupButton.m; sourceTree = "<group>"; };
+		5AC2FFF4152B0FC400866FC5 /* dropdown_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdown_button_pressed.png; sourceTree = "<group>"; };
+		5AC2FFF5152B0FC400866FC5 /* dropdown_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdown_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		5AC2FFDA152B0ACB00866FC5 /* SASPopupButton */ = {
 			isa = PBXGroup;
 			children = (
+				5AC2FFF4152B0FC400866FC5 /* dropdown_button_pressed.png */,
+				5AC2FFF5152B0FC400866FC5 /* dropdown_button.png */,
 				5AC2FFF1152B0EBD00866FC5 /* SASPopupButton.h */,
 				5AC2FFF2152B0EBD00866FC5 /* SASPopupButton.m */,
 				5AC2FFE3152B0ACB00866FC5 /* AppDelegate.h */,
@@ -156,6 +162,8 @@
 			files = (
 				5AC2FFDF152B0ACB00866FC5 /* InfoPlist.strings in Resources */,
 				5AC2FFEB152B0ACB00866FC5 /* ViewController.xib in Resources */,
+				5AC2FFF6152B0FC400866FC5 /* dropdown_button_pressed.png in Resources */,
+				5AC2FFF7152B0FC400866FC5 /* dropdown_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
