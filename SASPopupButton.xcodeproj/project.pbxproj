@@ -15,6 +15,7 @@
 		5AC2FFE5152B0ACB00866FC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2FFE4152B0ACB00866FC5 /* AppDelegate.m */; };
 		5AC2FFE8152B0ACB00866FC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2FFE7152B0ACB00866FC5 /* ViewController.m */; };
 		5AC2FFEB152B0ACB00866FC5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2FFE9152B0ACB00866FC5 /* ViewController.xib */; };
+		5AC2FFF3152B0EBD00866FC5 /* SASPopupButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2FFF2152B0EBD00866FC5 /* SASPopupButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		5AC2FFE6152B0ACB00866FC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5AC2FFE7152B0ACB00866FC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5AC2FFEA152B0ACB00866FC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5AC2FFF1152B0EBD00866FC5 /* SASPopupButton.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SASPopupButton.h; sourceTree = "<group>"; };
+		5AC2FFF2152B0EBD00866FC5 /* SASPopupButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASPopupButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		5AC2FFDA152B0ACB00866FC5 /* SASPopupButton */ = {
 			isa = PBXGroup;
 			children = (
+				5AC2FFF1152B0EBD00866FC5 /* SASPopupButton.h */,
+				5AC2FFF2152B0EBD00866FC5 /* SASPopupButton.m */,
 				5AC2FFE3152B0ACB00866FC5 /* AppDelegate.h */,
 				5AC2FFE4152B0ACB00866FC5 /* AppDelegate.m */,
 				5AC2FFE6152B0ACB00866FC5 /* ViewController.h */,
@@ -164,6 +169,7 @@
 				5AC2FFE1152B0ACB00866FC5 /* main.m in Sources */,
 				5AC2FFE5152B0ACB00866FC5 /* AppDelegate.m in Sources */,
 				5AC2FFE8152B0ACB00866FC5 /* ViewController.m in Sources */,
+				5AC2FFF3152B0EBD00866FC5 /* SASPopupButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
